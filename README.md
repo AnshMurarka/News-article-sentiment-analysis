@@ -6,7 +6,7 @@ The project processes the article's text, **extracts emotions using the NRC Emot
 The goal is to gain insights into the **emotional tone of news articles and understand their overall sentiment**.
 
 
-
+<br><br>
 **Features**
 
 1)**Fetch News Articles**: Retrieves a news article's content from a given URL using web scraping techniques with requests and BeautifulSoup.
@@ -27,7 +27,7 @@ overall emotional tone.
 8)**Error Handling**: Includes error handling for failed HTTP requests when fetching articles, with informative messages to guide the user.
 
 
-
+<br><br>
 
 
 **Output**
@@ -115,7 +115,7 @@ overall emotional tone.
 ->Uses matplotlib to generate a bar chart showing the relative distribution of emotions such as joy, sadness, anger, etc.
 
 
-
+<br><br>
 **Notes**
 
 
@@ -130,7 +130,3 @@ overall emotional tone.
 **Disclaimer**
 
 This code is purely for educational purpose only.
-
-This is the first line.<br><br>
-This is the second line with space above it.<br><br>
-This is the third line with more space.
