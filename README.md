@@ -130,9 +130,7 @@ overall emotional tone.
 **Disclaimer**
 
 This code is purely for educational purpose only.
-This is a normal text, and this is <b style="font-size: 80px;">larger text</b>.
-This is the first line.
 
-
-This is the second line.
-
+This is the first line.<br><br>
+This is the second line with space above it.<br><br>
+This is the third line with more space.
