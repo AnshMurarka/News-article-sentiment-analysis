@@ -111,6 +111,6 @@ overall emotional tone.
 
 #**Disclaimer**
 
-<span style="font-size: 20px; font-weight: bold;">Disclaimer</span>
+<span style="font-size: 30px; font-weight: bold;">Disclaimer</span>
 
 This code is purely for educational purpose only.
