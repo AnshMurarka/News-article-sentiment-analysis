@@ -5,7 +5,9 @@ The project processes the article's text, **extracts emotions using the NRC Emot
 
 The goal is to gain insights into the **emotional tone of news articles and understand their overall sentiment**.
 
-#**Features**
+
+
+**Features**
 
 1)**Fetch News Articles**: Retrieves a news article's content from a given URL using web scraping techniques with requests and BeautifulSoup.
 
@@ -25,7 +27,10 @@ overall emotional tone.
 8)**Error Handling**: Includes error handling for failed HTTP requests when fetching articles, with informative messages to guide the user.
 
 
-#**Output**
+
+
+
+**Output**
 
 1)**Fetched Article Text**: Displays a snippet of the fetched article (first 500 characters).
 
@@ -36,7 +41,9 @@ overall emotional tone.
 4)**Emotion Distribution Bar Chart**: Displays a bar chart of the emotion frequencies.
 
 
-#**Enhancements Added**
+
+
+**Enhancements Added**
 
 1)**HTTP Request Error Handling**: Checks for response status and provides informative error messages for failed HTTP requests.
 
@@ -45,7 +52,10 @@ overall emotional tone.
 3)**Emotion Detection Check**: Ensures the script does not attempt to plot a chart if no emotions are detected.
 
 
-#**Main Functions**
+
+
+**Main Functions**
+
 
 1)**fetch_news_article(url)**
 
@@ -55,11 +65,13 @@ overall emotional tone.
 
 ->Parses the HTML content of the page with BeautifulSoup to extract all paragraph text.
 
+
 2)**clean_text(text)**
 
 ->Converts the input text to lowercase.
 
 ->Removes punctuation using Python's built-in string.punctuation to ensure clean tokenization and analysis.
+
 
 3)**tokenization(cleaned_text)**
 
@@ -67,11 +79,13 @@ overall emotional tone.
 
 ->Tokenization splits the text into smaller units (tokens) like words or punctuation, which can be analyzed further.
 
+
 4)**remove_stopwords(tokenized_words)**
 
 ->Removes common stop words from the tokenized words using NLTK's predefined stopwords list for the English language.
 
 ->This step helps eliminate irrelevant words that do not contribute to the meaning of the text.
+
 
 5)**lemmatize_words(final_words)**
 
@@ -79,17 +93,20 @@ overall emotional tone.
 
 ->Lemmatization ensures that similar words in different forms are treated as the same word.
 
+
 6)**extract_emotions_nrc(words)**
 
 ->Analyzes each word for emotions using the NRCLex library, which maps words to emotions from the NRC Emotion Lexicon.
 
 ->Extracts the dominant emotion for each word and returns a frequency count of emotions in the article.
 
+
 7)**analyze_sentiment(text)**
 
 ->Performs sentiment analysis on the entire article using VADER (Valence Aware Dictionary and sEntiment Reasoner).
 
 ->The sentiment score is calculated based on a composite score that reflects the article's overall sentiment (Positive, Negative, or Neutral).
+
 
 8)**plot_emotions(emotion_counts)**
 
@@ -99,7 +116,8 @@ overall emotional tone.
 
 
 
-#**Notes**
+**Notes**
+
 
 1)**Emotion Detection**: If no emotions are detected, the script skips chart plotting and informs the user.
 
@@ -109,8 +127,6 @@ overall emotional tone.
 
 
 
-#**Disclaimer**
-
-<span style="font-size: 30px; font-weight: bold;">Disclaimer</span>
+**Disclaimer**
 
 This code is purely for educational purpose only.
