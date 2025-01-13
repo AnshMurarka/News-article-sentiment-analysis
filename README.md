@@ -113,7 +113,7 @@ overall emotional tone.
 
 **Notes**
 
-1)**Emotion Detection**: If no emotions are detected, the script skips chart plotting and informs the user.
+1)**Emotion Detection**: If no emotions are detected, the code skips chart plotting and informs the user.
 
 2)**VADER Sentiment Scoring**: Provides detailed sentiment scores, including a compound score reflecting the overall sentiment polarity.
 
