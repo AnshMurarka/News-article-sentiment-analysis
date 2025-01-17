@@ -7,7 +7,7 @@ The goal is to gain insights into the **emotional tone of news articles and unde
 
 <br><br>
 
-**Features**
+# Features
 
 1)**Fetch News Articles**: Retrieves a news article's content from a given URL using web scraping techniques with requests and BeautifulSoup.
 
@@ -28,7 +28,7 @@ overall emotional tone.
 
 <br><br>
 
-**Output**
+# Output
 
 1)**Fetched Article Text**: Displays a snippet of the fetched article (first 500 characters).
 
@@ -40,7 +40,7 @@ overall emotional tone.
 
 <br><br>
 
-**Enhancements Added**
+# Enhancements Added
 
 1)**HTTP Request Error Handling**: Checks for response status and provides informative error messages for failed HTTP requests.
 
@@ -50,7 +50,7 @@ overall emotional tone.
 
 <br><br>
 
-**Main Functions**
+# Main Functions
 <br><br>
 1)**fetch_news_article(url)**
 
@@ -111,7 +111,7 @@ overall emotional tone.
 
 <br><br>
 
-**Notes**
+# Notes
 
 1)**Emotion Detection**: If no emotions are detected, the code skips chart plotting and informs the user.
 
